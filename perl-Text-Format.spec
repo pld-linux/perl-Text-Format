@@ -25,7 +25,7 @@ Text-Format - ró¿ne subrutyny do formatowania tekstu.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
