@@ -24,7 +24,7 @@ Text::Format - ró¿ne subrutyny do formatowania tekstu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
