@@ -3,11 +3,11 @@ Summary:	Text::Format perl module
 Summary(pl):	Modu³ perla Text::Format
 Name:		perl-Text-Format
 Version:	0.52
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Text/Text-Format%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -22,7 +22,8 @@ Text::Format - ró¿ne subrutyny do formatowania tekstu.
 %setup -q -n Text-Format%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -36,5 +37,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Text/Format.pm
+%{perl_vendorlib}/Text/Format.pm
 %{_mandir}/man3/*
