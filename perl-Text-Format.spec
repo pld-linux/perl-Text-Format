@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	Text-Format perl module
-Summary(pl):	Modu³ perla Text-Format
+Summary:	Text::Format perl module
+Summary(pl):	Modu³ perla Text::Format
 Name:		perl-Text-Format
 Version:	0.52
 Release:	7
@@ -13,10 +13,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text-Format - various subroutines to format text.
+Text::Format - various subroutines to format text.
 
 %description -l pl
-Text-Format - ró¿ne subrutyny do formatowania tekstu.
+Text::Format - ró¿ne subrutyny do formatowania tekstu.
 
 %prep
 %setup -q -n Text-Format%{version}
