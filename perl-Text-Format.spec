@@ -22,7 +22,7 @@ Text::Format - ró¿ne subrutyny do formatowania tekstu.
 %setup -q -n Text-Format%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
