@@ -3,7 +3,7 @@ Summary:	Text-Format perl module
 Summary(pl):	Modu³ perla Text-Format
 Name:		perl-Text-Format
 Version:	0.52
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Text/Text-Format%{version}.tar.gz
