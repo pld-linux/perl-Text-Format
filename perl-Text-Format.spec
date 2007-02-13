@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Text::Format perl module
-Summary(pl.UTF-8):   Moduł perla Text::Format
+Summary(pl.UTF-8):	Moduł perla Text::Format
 Name:		perl-Text-Format
 Version:	0.52
 Release:	9
