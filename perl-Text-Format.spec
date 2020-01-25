@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Format Perl module - various subroutines to format text
 Summary(pl.UTF-8):	Moduł Perla Text::Format - różne funkcje do formatowania tekstu
 Name:		perl-Text-Format
