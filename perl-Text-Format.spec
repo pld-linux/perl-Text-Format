@@ -6,7 +6,7 @@ Summary:	Text::Format Perl module - various subroutines to format text
 Summary(pl.UTF-8):	Moduł Perla Text::Format - różne funkcje do formatowania tekstu
 Name:		perl-Text-Format
 Version:	0.58
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
